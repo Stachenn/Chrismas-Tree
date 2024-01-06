@@ -39,7 +39,7 @@ def createTree(treeHeight, decorationChance = 50):
 
             # Adding normal segment to ready string
             readyString += "*"
-                
+            
         # Printing spaces and ready string
         print(spacesString,readyString)
 
