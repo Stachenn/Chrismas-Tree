@@ -19,7 +19,7 @@ def createTree(treeHeight, decorationChance = 50):
     # Checking that procent is not greter than 100 or lower than 0
     # If yes then exit with error
         
-    if bombChance > 100 or bombChance < 0:
+    if decorationChance > 100 or decorationChance < 0:
         print("'bombChance' is greater than 100 or lower than 0")
         exit(1)
 
